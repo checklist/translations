@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Common -->
+    <string name="common.google.signin">Sign in with Google</string>
+    <string name="common.facebook.signin">Sign in with Facebook</string>
+    <string name="common.facebook.failed.title">Facebook Connect failed</string>
+    <string name="common.facebook.failed.message">Could not connect to Facebook for verification. Please try again later or register for a Checklist account</string>
+    <string name="common.google.failed.title">Google Sign in failed</string>
+    <string name="common.google.failed.message">Could not connect to Google for verification. Please try again later or register for a Checklist account</string>
+    <string name="common.form.email">Email</string>
+    <string name="common.form.username">Username</string>
+    <string name="common.form.password">Password</string>
+    <string name="common.form.name">Name</string>
+    <string name="common.form.firstName">First name</string>
+    <string name="common.form.lastName">Last name</string>
+    <string name="common.form.salutation">Salutation</string>
+    <string name="common.form.salutation.mr">Mr.</string>
+    <string name="common.form.salutation.mrs">Mrs.</string>
+    <string name="common.form.salutation.miss">Miss</string>
+    <string name="common.form.country">Country</string>
+    <string name="common.form.city">City</string>
+    <string name="common.form.zip">Zip code</string>
+    <string name="common.form.timezone">Timezone</string>
+    <string name="common.form.message">Message</string>
+    <string name="common.form.password.current">Current password</string>
+    <string name="common.form.password.new">New password</string>
+    <string name="common.form.password.repeat">Repeat new password</string>
+
+    <string name="common.ok">OK</string>
+    <string name="common.cancel">Cancel</string>
+    <string name="common.connect">Connect</string>
+    <string name="common.done">Done</string>
+    <string name="common.saved">Saved!</string>
+    <string name="common.skip">Skip</string>
+    <string name="common.delete">Delete</string>
+    <string name="common.loading">Loading&#8230;</string>
+    <string name="common.loading.initial">Initializing checklists. Please be patient&#8230;</string>
+    <string name="common.resetting">Resetting&#8230;</string>
+    <string name="common.preparing">Preparing&#8230;</string>
+    <string name="common.set">Set</string>
+    <string name="common.pending">Pending</string>
+    <string name="common.sun">Sunday</string>
+    <string name="common.mon">Monday</string>
+    <string name="common.tue">Tuesday</string>
+    <string name="common.wed">Wednesday</string>
+    <string name="common.thu">Thursday</string>
+    <string name="common.fri">Friday</string>
+    <string name="common.sat">Saturday</string>
+    <string name="common.working">Working. Please be patient&#8230;</string>
+
+  	<!-- Custom List -->
+    <string name="ptr_pull_to_refresh">Pull to refresh</string>
+    <string name="ptr_release_to_refresh">Release to refresh</string>
+    <string name="ptr_refreshing">Refreshing&#8230;</string>
+    <string name="ptr_last_updated">Updated: %1$s</string>
+    
+    <!-- Sync -->
+    <string name="common.sync.success">Sync was successful</string>
+    <string name="common.sync.fail">Could not sync. Please try again later.</string>
+    
+    <!-- Require account -->
+    <string name="common.unSupportedOperation.title">Register/ Login</string>
+    <string name="common.unSupportedOperation.message">This action requires a free checklist account</string>
+  
+    <!-- Logged out account -->
+    <string name="common.loggedOut.title">Login Expired</string>
+    <string name="common.loggedOut.message">Your login has expired. Please re-login to your account.</string>
+    
+    <!-- Home Screen -->
+    <string name="page.home.title">Connect</string>
+    <string name="page.home.register">Register</string>
+    <string name="page.home.login">Login</string>
+    <string name="page.home.skip.warning.title">You\'re missing out!</string>
+    <string name="page.home.skip.warning.message">By signing up you can:\n- sync your checklists with all your devices and browser\n- backup to the cloud\n- share checklists\n\nIt\'s 100% FREE. Give it a try?</string>
+    
+    <!-- Register Screen -->
+    <string name="page.register.title">Register</string>
+    <string name="page.register.or">or</string>
+    <string name="page.register.submit">Register</string>
+    <string name="page.register.requesting">Registration in progress&#8230;</string>
+    <string name="page.register.failed">Registration failed</string>
+    <string name="page.register.success">Thank you for your registration. We have sent you a confirmation email. Please check your email.</string>
+    <string name="page.register.exists">You already have a Checklist.com account with this email address. Please login.</string>
+	<string name="page.register.terms.agree">I agree to the</string>
+	<string name="page.register.terms.terms">Terms of Use</string>
+	
+	<!-- login Screen -->
+	<string name="page.login.title">Login</string>
+    <string name="page.login.or">or</string>
+	<string name="page.login.submit">Login</string>
+	<string name="page.login.failed">Login failed</string>
+	<string name="page.login.loggingIn">Logging in&#8230;</string>
+	<string name="page.login.forgotPassword">Forgot password</string>
+    <string name="page.login.accountLocked">Account has not been confirmed yet. Please check your email or reset your password.</string>
+	
+	<!-- Forgot password Screen -->
+	<string name="page.forgotPassword.title">Forgot password</string>
+    <string name="page.forgotPassword.submit">Reset password</string>
+    <string name="page.forgotPassword.requesting">Requesting&#8230;</string>
+    <string name="page.forgotPassword.success">We have just sent you a password reset email. Please click on the link found in it.</string>
+
+    <!-- Dashboard -->
+    <string name="page.dashboard.smartlists.important">Important</string>
+    <string name="page.dashboard.smartlists.today">Today \u0026 overdue</string>
+    <string name="page.dashboard.smartlists.week">This week</string>
+	<string name="page.dashboard.smartlists.recently">Recently viewed</string>
+    <string name="page.dashboard.smartlists.feedback">Can we have your feedback?</string>
+    <string name="page.dashboard.smartlists.hintInviteContact">Have you tried sharing a checklist?</string>
+    <string name="page.dashboard.smartlists.hintInviteContact.popup.body">On any checklist you wish to share, click on the Share menu and invite a contact from the popup</string>
+    <string name="page.dashboard.smartlists.pendingContacts">Pending Invitations</string>
+	<string name="page.dashboard.my">My checklists</string>
+    <string name="page.dashboard.search">Search</string>
+    <string name="page.dashboard.search_hint">Search Checklist</string>
+    <string name="page.dashboard.addChecklist">Add Checklist</string>
+    <string name="page.dashboard.viewChecklist">View Checklist</string>
+
+    <!-- Checklist -->
+    <string name="page.checklist.empty.checklist">Empty checklist. Add a task:</string>
+    <string name="page.checklist.empty">Empty checklist</string>
+    <string name="page.checklist.empty.task">Empty task. Add a sub-task:</string>
+
+	<!-- Request Feedback -->
+	<string name="page.requestFeedback.title">Your feedback</string>
+	<string name="page.requestFeedback.main">Please help our FREE app by providing us with your valuable feedback</string>
+	<string name="page.requestFeedback.btn.ok">O K</string>
+	<string name="page.requestFeedback.btn.no">Later</string>
+	<string name="page.requestFeedback.btn.never">No thanks</string>
+	
+	<!-- Wizard -->
+	<string name="page.wizard.cannotFind">No activities found. Please make sure you are online.</string>
+	<string name="page.wizard">Wizard</string>
+    <string name="page.wizard.bookmarked">Bookmark added to task</string>
+	
+	<!-- Settings -->
+    <string name="page.settings.title">Settings</string>
+    <string name="page.settings.sound.completed">Play sound on complete task</string>
+    <string name="page.settings.dailyReminder">Daily reminder</string>
+    <string name="page.settings.moveCompleted">Move completed tasks to end</string>
+    <string name="page.settings.emailReminder">Disable Email reminders</string>
+    <string name="page.settings.language">Language</string>
+	<string name="page.settings.defaultNotificationTime">Default notification time</string>
+    <string name="page.settings.theme">Theme</string>
+	<string name="page.settings.feedback">Feedback</string>
+	<string name="page.settings.myAccount">Account</string>
+    <string name="page.settings.publicProfie">Public Profile</string>
+    <string name="page.settings.contacts">Contacts</string>
+    <string name="page.settings.logout">Logout</string>
+    <string name="page.settings.refresh">Refresh</string>
+	<string name="page.settings.help">Help</string>
+	<string name="page.settings.faq">Frequently Asked Questions</string>
+	<string name="page.settings.video">Video tutorial</string>
+	<string name="page.settings.reset">Reset tutorial</string>
+	<string name="page.settings.reset.completed">Reset completed</string>
+    <string name="page.settings.shortcuts">Shortcuts</string>
+    <string name="page.settings.apps">Apps</string>
+    <string name="page.settings.apps.google">Google Play Market</string>
+    <string name="page.settings.apps.apple">Apple App Store</string>
+
+    <!-- Themes -->
+    <string name="page.themes.title">Themes</string>
+    <string name="page.themes.palette">Palette</string>
+
+    <string name="page.themes.type.primary">Primary</string>
+    <string name="page.themes.type.accent">Accent</string>
+    <string name="page.themes.type.warn">Warn</string>
+    <string name="page.themes.type.background">Background</string>
+
+    <string name="page.themes.hue.default">Default</string>
+    <string name="page.themes.hue.hue_1">Hue 1</string>
+    <string name="page.themes.hue.hue_2">Hue 2</string>
+    <string name="page.themes.hue.hue_3">Hue 3</string>
+
+    <string name="page.themes.themes.default">Default</string>
+    <string name="page.themes.themes.blue">Blue</string>
+    <string name="page.themes.themes.pink">Pink</string>
+    <string name="page.themes.themes.teal">Teal</string>
+    <string name="page.themes.themes.custom">Custom</string>
+
+    <string name="page.themes.layout">Layout:</string>
+    <string name="page.themes.layout.wide">Wide</string>
+    <string name="page.themes.layout.boxed">Boxed</string>
+
+	<!-- Language -->
+    <string name="page.language.title">Select your language</string>
+    
+    <!-- My Account -->
+    <string name="page.myAccount.title">My account</string>
+    
+    <!-- Video Tutorial -->
+    <string name="page.video.title">Video Tutorial</string>
+    
+    <!-- FAQ -->
+    <string name="page.faq.title">FAQ</string>
+    
+    <!-- Report Issue -->
+    <string name="page.reportIssue.title">Report an issue</string>
+    
+    <!-- Feature Request -->
+    <string name="page.featureRequest.title">Feature request</string>
+	
+	<!-- Feedback -->
+    <string name="page.feedback.title">Feedback</string>
+    <string name="page.feedback.like">I luv Checklist</string>
+    <string name="page.feedback.send">Contact us</string>
+	<string name="page.feedback.feature">Feature request</string>
+	<string name="page.feedback.report">Report issue</string>
+    <string name="page.feedback.popupMessage">We appreciate your luv of Checklist! Please help us keep this app 100% FREE by giving it a 5-star rating</string>
+    <string name="page.feedback.popupButton">Rate it!</string>
+	
+	<!-- Add task Screen -->
+    <string name="page.addTask.title">Add task</string>
+    <string name="page.addTask.added">Task added</string>
+    <string name="page.addTask.name">Task name</string>
+    
+    <!-- Edit task Screen -->
+    <string name="page.editTask.title">Edit task</string>
+    <string name="page.editChecklist.title">Edit Checklist</string>
+	
+	<!-- Add checklist Screen -->
+    <string name="page.newChecklist.title">New checklist</string>
+    <string name="page.newChecklist.placeholder">Name</string>
+    <string name="page.newChecklist.template.Users">Users</string>
+    <string name="page.newChecklist.template.Tasks">Tasks</string>
+    
+    <!-- Reminders -->
+    <string name="page.reminder.title">Reminder</string>
+    <string name="page.reminder.date">Date</string>
+    <string name="page.reminder.time">Time</string>
+    <string name="page.reminder.dueDate">Due date</string>
+    <string name="page.reminder.when">When</string>
+    <string name="page.reminder.repeat">Repeat</string>
+    <string name="page.reminder.none">None</string>
+    <string name="page.reminder.daily">Daily</string>
+    <string name="page.reminder.weekly">Weekly</string>
+    <string name="page.reminder.monthly">Monthly</string>
+    <string name="page.reminder.annually">Annually</string>
+    <string name="page.reminder.notificationTime">Notification time</string>
+    <string name="page.reminder.notificationAnnually">Repeat on</string>
+    <string name="page.reminder.set.confirmation">Reminder set:</string>
+    
+    <!-- Move to -->
+    <string name="page.move.title">Move to &#8230;</string>
+    <string name="page.move.dashboard">Dashboard</string>
+
+    <!-- Move to -->
+    <string name="page.copy.title">Copy to &#8230;</string>
+
+    <!-- Contacts -->
+    <string name="page.contacts.title">My Contacts</string>
+    <string name="page.contacts.empty">You don\'t have any contacts yet</string>
+    <string name="page.contacts.pending">Pending</string>
+    <string name="page.contacts.approve">Accept</string>
+    <string name="page.contacts.reject">Reject</string>
+    <string name="page.contacts.remind">Remind</string>
+    <string name="page.contacts.remove.title">Delete contact</string>
+    <string name="page.contacts.remove.message">Are you sure you want to delete this contact?</string>
+    <string name="page.contacts.search">Search contacts </string>
+    <string name="page.contacts.msg">Invite contacts to share and collaborate with your checklists.</string>
+    <string name="page.contacts.addContact">Add contact &#8230;</string>
+
+    <!-- Share Checklist -->
+    <string name="page.shareChecklist.title">Checklist shared with:</string>
+    <string name="page.share.title">Shared with:</string>
+
+    <!-- Assign -->
+    <string name="page.assign.title">Share &amp; Assign</string>
+    <string name="page.assign.empty">You don\'t have any contacts yet</string>
+    <string name="page.assign.pending">Pending</string>
+    <string name="page.assign.me">Me</string>
+    <string name="page.assign.me.short">Me</string>
+    <string name="page.assign.invite">+ Invite</string>
+    <string name="page.assign.manage">Manage</string>
+    <string name="page.assign.invite.instructions">Invite a contact to share this checklist with</string>
+    <string name="page.assign.select.instructions">Check the contact you wish to assign this task to</string>
+    <string name="page.assign.select.pending.title">Contact still Pending</string>
+    <string name="page.assign.select.pending.message">Ask your contact to accept the invitation first</string>
+    <string name="page.assign.stopShare">Stop sharing this checklist with {name}?</string>
+    <string name="page.assign.assignedTo">Assigned to:</string>
+
+    
+    <!-- Invite Contacts -->
+    <string name="page.inviteContact.title">Invite a contact to share a Checklist</string>
+    <string name="page.inviteContact.edit">Edit</string>
+    <string name="page.inviteContact.placeholder">Name or email address...</string>
+    <string name="page.inviteContact.message">Hi,\n\nI need your help. Come help me get things done!\n\n</string>
+    <string name="page.inviteContact.confirm">Invitation sent. Once contact approves, you can start assigning tasks</string>
+
+    <!-- Notes -->
+    <string name="page.notes.placeholder">Enter your task notes here</string>
+    
+    <!-- Templates -->
+    <string name="page.template.confirmCustomize.title">Checklist template</string>
+    <string name="page.template.confirmCustomize.message">Like it? Click OK to start using it</string>
+    <string name="page.template.cannotLoad">Template could not be loaded</string>
+    
+    <!-- Popups -->
+    <string name="popup.confirm">Confirm</string>
+    <string name="popup.logOff">Are you sure you want to log out?</string>
+    <string name="popup.logOffWithCommands">You have work that is not synced. Please go back to the dashboard and perform a sync. Are you sure you want to log out and lose your work?</string>
+    <string name="popup.deleteTask">This task has subtasks. Are you sure you want to remove it?</string>
+    <string name="popup.completeAction">Complete action using</string>
+	<string name="popup.attach.takePhoto">Camera</string>
+	<string name="popup.attach.existingPhoto">Gallery</string>
+	<string name="popup.attach.always">Always</string>
+	<string name="popup.attach.justOnce">Just once</string>
+	<string name="popup.share.facebook">Share on Facebook</string>
+	<string name="popup.share.twitter">Post to Twitter</string>
+	<string name="popup.share.email">Email</string>
+	<string name="popup.pending.invitation">Are you sure you want to remind contact of pending invitation?</string>
+	<string name="popup.confirm.invitation">Would you like to invite %s</string>
+    
+    <!-- Errors -->
+    <string name="errors.required.email">Email required</string>
+    <string name="errors.required.password">Password required</string>
+    <string name="errors.required.name">Name required</string>
+    <string name="errors.invalidCredentials">Invalid credentials</string>
+    <string name="errors.invalidEmail">Please enter a valid email address</string>
+    <string name="errors.invalidPassword">Invalid password. Letters and numbers only</string>
+    <string name="errors.invalidPasswordLengthMin">Password minimum 6 chars</string>
+    <string name="errors.invalidPasswordLengthMax">Password maximum 20 chars</string>
+    <string name="errors.password.match">Passwords don\'t match</string>
+    <string name="errors.invalidCountry">Please select a country</string>
+    <string name="errors.invalidName">At least 2 characters required for name</string>
+    <string name="errors.noEmailClient">There are no email clients installed</string>
+
+    <!-- Welcome Checklists -->
+    <string name="templates.tutorial.checklist.name">Tutorial</string>
+    <string name="templates.tutorial.checklist.task1.name">Touch + to add tasks</string>
+    <string name="templates.tutorial.checklist.task2.name">Check me when done</string>
+    <string name="templates.tutorial.checklist.task3.name">Use right dots for actions</string>
+    <string name="templates.tutorial.checklist.task4.name">Touch me for sub-tasks</string>
+    <string name="templates.tutorial.checklist.task4.note">I am a task note. Scribble here all your ideas for getting this task done.</string>
+    <string name="templates.tutorial.checklist.task4.subtask1">I am a sub-task</string>
+    <string name="templates.tutorial.checklist.task4.subtask2">I am another sub-task</string>
+    <string name="templates.tutorial.checklist.task5.name">I am an important task</string>
+    <string name="templates.tutorial.checklist.task6.name">I have a reminder</string>
+    <string name="templates.tutorial.checklist.task7.name">Long press to move me around</string>
+    <string name="templates.tutorial.checklist.task8.name">I am a completed task</string>
+    <string name="templates.tutorial.checklist.task9.name">Swipe left to delete</string>
+    <string name="templates.shopping">Shopping</string>
+    <string name="templates.private">Private</string>
+    <string name="templates.work">Work</string>
+    <string name="templates.birthdays">Birthdays</string>
+    <string name="templates.movies">Movies</string>
+    <string name="templates.bills">Bills</string>
+
+    <string name="menu.add" >Add</string>
+    <string name="menu.add.next">Add +</string>
+    <string name="menu.add.next.tooltip">Add &amp; next</string>
+    <string name="menu.edit" >Edit</string>
+    <string name="menu.wizard" >Wizard</string>
+    <string name="menu.delete" >Delete</string>
+    <string name="menu.notes" >Notes</string>
+    <string name="menu.reminder" >Reminders</string>
+    <string name="menu.important" >Important</string>
+    <string name="menu.assign" >Share</string>
+    <string name="menu.share" >Send to</string>
+    <string name="menu.duplicate" >Duplicate</string>
+    <string name="menu.copyTo" >Copy to</string>
+    <string name="menu.move" >Move</string>
+    <string name="menu.attach" >Attach</string>
+    <string name="menu.reminders.hour" >1 Hour</string>
+    <string name="menu.reminders.tomorrow" >Tomorrow</string>
+    <string name="menu.reminders.week" >Next week</string>
+    <string name="menu.reminders.more" >More &#8230;</string>
+    <string name="menu.reminders.custom">Custom</string>
+    <string name="menu.reminders.clear" >Clear</string>
+    <string name="menu.reminders.now">Now</string>
+    <string name="menu.remove_completed" >Remove completed</string>
+    <string name="menu.bookmark">Bookmark</string>
+    <string name="menu.download">Download</string>
+    <string name="menu.prev">Previous</string>
+    <string name="menu.next">Next</string>
+    <string name="menu.actions">Actions</string>
+    <string name="menu.publish">Publish</string>
+    <string name="menu.privateLink">Private Link</string>
+    <string name="menu.open">Open</string>
+    <string name="menu.save">Save</string>
+    <string name="menu.multi">Multi</string>
+    <string name="menu.multi.tasks">Add Multiple tasks</string>
+    <string name="menu.select_all">Select all</string>
+    <string name="menu.print">Print</string>
+    <string name="menu.insertLink">Insert Link</string>
+    <string name="menu.menu">Menu</string>
+    <string name="menu.close">Close</string>
+    <string name="menu.apply">Apply</string>
+    <string name="menu.invite">Invite</string>
+    <string name="menu.send">Send</string>
+    <string name="menu.view">View</string>
+
+    <!-- undo -->
+    <string name="checklist.task.deleted.undo">UNDO</string>
+    <string name="checklist.task.deleted">Task Deleted</string>
+
+    <!-- templates -->
+    <string name="templates.reportBug.subject">Checklist feedback - bug report</string>
+    <string name="templates.reportBug.body">Please describe the problem you are having:\n\nWhen I did this:\n\n....\n\nI expected this:\n\n....\n\nBut the following happened:\n\n....\n\nPlease do not write below this line:\n---------------------\n\nPackage: {app.package}\nVersion: {app.version}\nLocale: {app.language}\nDevice: {device.version}\nOS Version: {os.version}\nSDK Version: {sdk.version}\nResolution: {device.resolution}\nConfig file: {config.url}\nDebug: {app.debug}\nUsername:{user.username}\nAccount id: {user.accountId}\nUser token: {user.token}\nExpires: {user.expires}\nFacebook: {user.facebook}</string>
+    
+    <string name="templates.share.subject">{task}</string>
+    <string name="templates.share.body">\n\n{task}:\n\n{subtasks}\n\nGet your own free checklist at www.checklist.com</string>
+    
+	<!-- Hints --> 
+	<string name="hints.dashboard.plus">Create your first checklist</string>
+    <string name="hints.addChecklist.tag">Browse our checklist templates</string>
+    <string name="hints.checklist.plus">Add your first task to the checklist</string>
+    <string name="hints.checklist.task">Actions menu</string>
+    <string name="hints.assign.plus">Invite a contact to share this checklist with</string>
+    <string name="hints.reminder.dueDate">Set a due date to get a reminder</string>
+    <string name="hints.template.use">Like the template? Click to use it</string>
+	 
+	 <!-- Category/ Tag names -->
+	 <string name="tags.list">Family,Business,Home,Technology,Money,Leisure</string>
+
+	 <!-- Notifications -->
+	 <string name="notification.due">Your task: %s is now due</string>
+	 <string name="notification.dailyReminder">Your checklists need you!</string>
+
+    <!-- Attachments -->
+    <string name="page.attachment.downloading.title">Downloading attachment</string>
+    <string name="page.attachment.downloading.body">Check the notification bar when ready</string>
+    <string name="page.attachment.no_download.title">Download failed</string>
+    <string name="page.attachment.no_download.body">Please check your internet connection and try again later. A copy of the file has been saved on your device.</string>
+    <string name="page.attachment.delete.title">Delete attachment?</string>
+    <string name="page.attachment.delete.body">Are you sure you wish to delete?</string>
+
+    <string name="page.attach.popup.title">Attach</string>
+    <string name="page.attach.popup.add">+ Add an Attachment</string>
+    <string name="page.attach.popup.photo">Take Photo</string>
+    <string name="page.attach.popup.library">From Library</string>
+    <string name="page.attachment.no_upload.title">Upload failed</string>
+    <string name="page.attach.progress.uploading">Uploading &#8230;</string>
+    <string name="page.attachment.too_long.title">File too big</string>
+    <string name="page.attachment.too_long.body">Your attachment is too big.</string>
+    <string name="page.attachment.cannot_access.title">Cannot access</string>
+    <string name="page.attachment.cannot_access.body">Cannot access the file. Please select a local file on the device.</string>
+
+    <!-- TOUR -->
+    <string name="page.tour.slide1.title">Welcome to Checklist!</string>
+    <string name="page.tour.slide1.body">LET\'S GET STARTED!</string>
+    <string name="page.tour.slide2.title">Checklist unlimited!</string>
+    <string name="page.tour.slide2.body">Enjoy unlimited (sub)tasks, reminders, repeat tasks, notes and more &#8230;</string>
+    <string name="page.tour.slide3.title">Thousands of Templates</string>
+    <string name="page.tour.slide3.body">Quickly get started by choosing from thousands of pre-made checklist templates. Why re-invent the wheel?!</string>
+    <string name="page.tour.slide4.title">Reminders</string>
+    <string name="page.tour.slide4.body">Set reminders for a specific date or given time. Use \'repeat reminders\' for regular daily, weekly, monthly or annual tasks.</string>
+    <string name="page.tour.slide5.title">Wizard</string>
+    <string name="page.tour.slide5.body">The only Checklist app that works FOR you!\nLet the Wizard suggest how to get a task done.</string>
+    <string name="page.tour.slide6.title">Share your workload</string>
+    <string name="page.tour.slide6.body">Easily invite friends, family and colleagues to share your checklist. Assign tasks individually.</string>
+    <string name="page.tour.slide7.title">Cloud Sync</string>
+    <string name="page.tour.slide7.body">Optional sync to the cloud for backup, sharing and access across devices.</string>
+
+    <string name="page.account.personalDetails">Personal details</string>
+    <string name="page.account.close.title">Close your Account</string>
+    <string name="page.account.close.msg">We are so sorry &#8230;</string>
+    <string name="page.account.close.button">Close Account</string>
+    <string name="page.account.close.dialog.title">Are you sure you wish to close your account?</string>
+
+    <string name="checklist.filter">Filter</string>
+    <string name="checklist.filter.both">Both</string>
+    <string name="checklist.filter.completed">Completed</string>
+    <string name="checklist.filter.open">Open</string>
+    <string name="checklist.sort.sort">Sort</string>
+    <string name="checklist.sort.manual">Manual</string>
+    <string name="checklist.sort.name">Name</string>
+    <string name="checklist.sort.notes">Notes</string>
+    <string name="checklist.sort.startDate">Start Date</string>
+    <string name="checklist.sort.dueDate">Due Date</string>
+    <string name="checklist.sort.direction">Sort Direction</string>
+    <string name="checklist.sort.direction.ascending">Ascending</string>
+    <string name="checklist.sort.direction.descending">Descending</string>
+    <string name="checklist.status.completed">Completed</string>
+    <string name="checklist.status.notCompleted">Not Completed</string>
+    <string name="page.checklist.quickAdd.placeholder">Quickly add a task</string>
+    <string name="page.checklist.quickAdd.noMatches">No matches</string>
+    <string name="page.checklist.quickAdd.tasks">Tasks</string>
+
+    <string name="toolbar.toggle_navigation">Toggle Navigation</string>
+
+</resources>
