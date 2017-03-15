@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
 
     <!-- Common -->
     <string name="common.google.signin">Sign in with Google</string>
@@ -11,7 +11,7 @@
     <string name="common.form.email">Email</string>
     <string name="common.form.username">Username</string>
     <string name="common.form.password">Password</string>
-    <string name="common.form.name">Name</string>
+    <string name="common.form.name">Your Name</string>
     <string name="common.form.firstName">First name</string>
     <string name="common.form.lastName">Last name</string>
     <string name="common.form.salutation">Salutation</string>
@@ -49,7 +49,7 @@
     <string name="common.sat">Saturday</string>
     <string name="common.working">Working. Please be patient&#8230;</string>
 
-  	<!-- Custom List -->
+	<!-- Custom List -->
     <string name="ptr_pull_to_refresh">Pull to refresh</string>
     <string name="ptr_release_to_refresh">Release to refresh</string>
     <string name="ptr_refreshing">Refreshing&#8230;</string>
@@ -71,16 +71,21 @@
     <string name="page.home.title">Connect</string>
     <string name="page.home.register">Register</string>
     <string name="page.home.login">Login</string>
+    <string name="page.home.next">Next</string>
     <string name="page.home.skip.warning.title">You\'re missing out!</string>
     <string name="page.home.skip.warning.message">By signing up you can:\n- sync your checklists with all your devices and browser\n- backup to the cloud\n- share checklists\n\nIt\'s 100% FREE. Give it a try?</string>
-    
+
+    <!-- Board -->
+    <string name="page.board.home">Overview</string>
+
     <!-- Register Screen -->
     <string name="page.register.title">Register</string>
     <string name="page.register.or">or</string>
     <string name="page.register.submit">Register</string>
+    <string name="page.register.password.hint">Minimum 6 alphanumeric characters</string>
     <string name="page.register.requesting">Registration in progress&#8230;</string>
     <string name="page.register.failed">Registration failed</string>
-    <string name="page.register.success">Thank you for your registration. We have sent you a confirmation email. Please check your email.</string>
+    <string name="page.register.success">Thank you for your registration. Please confirm the email we have just sent you. Then click Login on this page.</string>
     <string name="page.register.exists">You already have a Checklist.com account with this email address. Please login.</string>
 	<string name="page.register.terms.agree">I agree to the</string>
 	<string name="page.register.terms.terms">Terms of Use</string>
@@ -136,13 +141,19 @@
     <string name="page.settings.title">Settings</string>
     <string name="page.settings.sound.completed">Play sound on complete task</string>
     <string name="page.settings.dailyReminder">Daily reminder</string>
+    <string name="page.settings.showSubtasks">Show subtasks on checklist page</string>
+    <string name="page.settings.showSubtasks.warning.title">Drag-n-Drop</string>
+    <string name="page.settings.showSubtasks.warning.message">Drag-n-Drop is not available on multi-level checklist pages</string>
+    <string name="page.settings.swipeDelete">Swipe to delete</string>
+    <string name="page.settings.advanced">Advanced mode</string>
     <string name="page.settings.moveCompleted">Move completed tasks to end</string>
     <string name="page.settings.emailReminder">Disable Email reminders</string>
     <string name="page.settings.language">Language</string>
 	<string name="page.settings.defaultNotificationTime">Default notification time</string>
     <string name="page.settings.theme">Theme</string>
 	<string name="page.settings.feedback">Feedback</string>
-	<string name="page.settings.myAccount">Account</string>
+    <string name="page.settings.myChannel">My Channel</string>
+	<string name="page.settings.myAccount">My Account</string>
     <string name="page.settings.publicProfie">Public Profile</string>
     <string name="page.settings.contacts">Contacts</string>
     <string name="page.settings.logout">Logout</string>
@@ -216,12 +227,15 @@
     <!-- Edit task Screen -->
     <string name="page.editTask.title">Edit task</string>
     <string name="page.editChecklist.title">Edit Checklist</string>
-	
-	<!-- Add checklist Screen -->
-    <string name="page.newChecklist.title">New checklist</string>
-    <string name="page.newChecklist.placeholder">Name</string>
-    <string name="page.newChecklist.template.Users">Users</string>
-    <string name="page.newChecklist.template.Tasks">Tasks</string>
+
+    <!-- Add Checklist Dialog -->
+    <string name="page.addChecklist.placeholder">Checklist name</string>
+
+	<!-- Browse Templates Screen -->
+    <string name="page.browseTemplates.title">Browse Checklist Templates</string>
+    <string name="page.browseTemplates.placeholder">Search &#8230;</string>
+    <string name="page.browseTemplates.template.Users">Users</string>
+    <string name="page.browseTemplates.template.Tasks">Tasks</string>
     
     <!-- Reminders -->
     <string name="page.reminder.title">Reminder</string>
@@ -284,10 +298,13 @@
     <string name="page.inviteContact.edit">Edit</string>
     <string name="page.inviteContact.placeholder">Name or email address...</string>
     <string name="page.inviteContact.message">Hi,\n\nI need your help. Come help me get things done!\n\n</string>
-    <string name="page.inviteContact.confirm">Invitation sent. Once contact approves, you can start assigning tasks</string>
+    <string name="page.inviteContact.confirm">Invitation sent. Once your contact approves your invitation, you can start assigning tasks to him/ her.</string>
 
     <!-- Notes -->
     <string name="page.notes.placeholder">Enter your task notes here</string>
+
+    <!-- Wizard Dialog -->
+    <string name="page.wizard.placeholder">What do you need help with?</string>
     
     <!-- Templates -->
     <string name="page.template.confirmCustomize.title">Checklist template</string>
@@ -299,6 +316,8 @@
     <string name="popup.logOff">Are you sure you want to log out?</string>
     <string name="popup.logOffWithCommands">You have work that is not synced. Please go back to the dashboard and perform a sync. Are you sure you want to log out and lose your work?</string>
     <string name="popup.deleteTask">This task has subtasks. Are you sure you want to remove it?</string>
+    <string name="popup.confirmGeneric">Are you sure?</string>
+    <string name="popup.confirmClearChecklist">Are you sure you want to check/ un-check all tasks?</string>
     <string name="popup.completeAction">Complete action using</string>
 	<string name="popup.attach.takePhoto">Camera</string>
 	<string name="popup.attach.existingPhoto">Gallery</string>
@@ -321,15 +340,17 @@
     <string name="errors.invalidPasswordLengthMax">Password maximum 20 chars</string>
     <string name="errors.password.match">Passwords don\'t match</string>
     <string name="errors.invalidCountry">Please select a country</string>
+    <!-- <string name="errors.invalidName">Please enter both first and last name</string> -->
     <string name="errors.invalidName">At least 2 characters required for name</string>
     <string name="errors.noEmailClient">There are no email clients installed</string>
 
     <!-- Welcome Checklists -->
     <string name="templates.tutorial.checklist.name">Tutorial</string>
-    <string name="templates.tutorial.checklist.task1.name">Touch + to add tasks</string>
+    <string name="templates.tutorial.checklist.notes">This tutorial is actually a checklist with the name: Tutorial. Play with me to learn how I work. You can delete me when done. BTW - I am a checklist note.</string>
+    <string name="templates.tutorial.checklist.task1.name">Click + to add tasks</string>
     <string name="templates.tutorial.checklist.task2.name">Check me when done</string>
-    <string name="templates.tutorial.checklist.task3.name">Use right dots for actions</string>
-    <string name="templates.tutorial.checklist.task4.name">Touch me for sub-tasks</string>
+    <string name="templates.tutorial.checklist.task3.name">Use right dots for task menu</string>
+    <string name="templates.tutorial.checklist.task4.name">Click me for sub-tasks</string>
     <string name="templates.tutorial.checklist.task4.note">I am a task note. Scribble here all your ideas for getting this task done.</string>
     <string name="templates.tutorial.checklist.task4.subtask1">I am a sub-task</string>
     <string name="templates.tutorial.checklist.task4.subtask2">I am another sub-task</string>
@@ -377,8 +398,11 @@
     <string name="menu.privateLink">Private Link</string>
     <string name="menu.open">Open</string>
     <string name="menu.save">Save</string>
+    <string name="menu.create">Create</string>
+    <string name="menu.search">Search</string>
     <string name="menu.multi">Multi</string>
     <string name="menu.multi.tasks">Add Multiple tasks</string>
+    <string name="menu.multi.tasks.hint">Enter one task per line</string>
     <string name="menu.select_all">Select all</string>
     <string name="menu.print">Print</string>
     <string name="menu.insertLink">Insert Link</string>
@@ -388,6 +412,11 @@
     <string name="menu.invite">Invite</string>
     <string name="menu.send">Send</string>
     <string name="menu.view">View</string>
+    <string name="menu.templates">Templates</string>
+    <string name="menu.advanced">Advanced</string>
+
+    <string name="menu.advanced.on_title">Advanced Mode On</string>
+    <string name="menu.advanced.on_body">You are now in Advanced mode. You can always switch back to Basic mode from the Settings page.</string>
 
     <!-- undo -->
     <string name="checklist.task.deleted.undo">UNDO</string>
@@ -400,15 +429,7 @@
     <string name="templates.share.subject">{task}</string>
     <string name="templates.share.body">\n\n{task}:\n\n{subtasks}\n\nGet your own free checklist at www.checklist.com</string>
     
-	<!-- Hints --> 
-	<string name="hints.dashboard.plus">Create your first checklist</string>
-    <string name="hints.addChecklist.tag">Browse our checklist templates</string>
-    <string name="hints.checklist.plus">Add your first task to the checklist</string>
-    <string name="hints.checklist.task">Actions menu</string>
-    <string name="hints.assign.plus">Invite a contact to share this checklist with</string>
-    <string name="hints.reminder.dueDate">Set a due date to get a reminder</string>
-    <string name="hints.template.use">Like the template? Click to use it</string>
-	 
+
 	 <!-- Category/ Tag names -->
 	 <string name="tags.list">Family,Business,Home,Technology,Money,Leisure</string>
 
@@ -477,5 +498,52 @@
     <string name="page.checklist.quickAdd.tasks">Tasks</string>
 
     <string name="toolbar.toggle_navigation">Toggle Navigation</string>
+    <string name="drawer_open">Open drawer</string>
+    <string name="drawer_close">Close drawer</string>
+
+    <string name="lang.en" translatable="false">English</string>
+    <string name="lang.de" translatable="false">Deutsch</string>
+    <string name="lang.es" translatable="false">Espa\u00f1ol</string>
+    <string name="lang.nl" translatable="false">Nederlands</string>
+    <string name="lang.fr" translatable="false">Fran\u00e7ais</string>
+    <string name="lang.pt" translatable="false">Portugu\u00eas</string>
+    <string name="lang.ru" translatable="false">\u0420\u0443\u0441\u0441\u043a\u0438\u0439</string>
+
+    <!-- Widget -->
+    <string name="widget.configure.title">Select checklist to display:</string>
+
+    <!-- Hints -->
+    <string name="hints.dashboard.plus">Create your first checklist</string>
+    <string name="hints.addChecklist.tag">Browse checklist templates</string>
+    <string name="hints.checklist.plus">Add your first task to the checklist</string>
+    <string name="hints.checklist.task">Actions menu</string>
+    <string name="hints.assign.plus">Invite a contact to share this checklist with</string>
+    <string name="hints.reminder.dueDate">Set a due date to get a reminder</string>
+    <string name="hints.template.use">Like the template? Click to use it</string>
+
+    <string name="onboarding.checklist_menu.title">Checklist Menu</string>
+    <string name="onboarding.checklist_menu.body">Click this menu button to reveal more actions for this checklist</string>
+    <string name="onboarding.task_menu.title">Task menu</string>
+    <string name="onboarding.task_menu.body">Click this menu to reveal more actions for this task</string>
+    <string name="onboarding.checklist_wizard.title">Checklist Wizard</string>
+    <string name="onboarding.checklist_wizard.body">Let our wizard help you get your tasks done!</string>
+    <string name="onboarding.wizard_search.title">The Checklist Wizard</string>
+    <string name="onboarding.wizard_search.body">Our wizard uses your task name to search for different offers that can help you complete the task. You can refine your wizard results using the search criteria.</string>
+    <string name="onboarding.wizard_bookmark.title">Bookmark page</string>
+    <string name="onboarding.wizard_bookmark.body">Do you like this page? Click the Bookmark button to keep it for later reference as a sub task.</string>
+    <string name="onboarding.move_to.name.title">Checklist/ Task Name</string>
+    <string name="onboarding.move_to.name.body">Select to which checklist you wish to move your task to. Or &#8230;</string>
+    <string name="onboarding.move_to.arrow.title">Go deeper</string>
+    <string name="onboarding.move_to.arrow.body">Click the arrow to move into subtasks of this checklist. Or &#8230;</string>
+    <string name="onboarding.move_to.dashboard.title">Dashboard</string>
+    <string name="onboarding.move_to.dashboard.body">Select Dashboard to move your task to the Dashboard and make it into a checklist.</string>
+    <string name="onboarding.multi.task.title">Multi Task Action</string>
+    <string name="onboarding.multi.task.body">Select the tasks you wish to work on. Then &#8230;</string>
+    <string name="onboarding.multi.icons.title">The Action</string>
+    <string name="onboarding.multi.icons.body">Choose which action you wish to perform: Move to, Duplicate, Mark as important, Assign or Delete.</string>
+    <string name="onboarding.multi.select.title">Select All</string>
+    <string name="onboarding.multi.select.body">Click to select / un-select all tasks</string>
+    <string name="onboarding.template.check.title">Checklist Template</string>
+    <string name="onboarding.template.check.body">This is a checklist template. You can browse it and if you like to start using it, simply click Save.</string>
 
 </resources>
